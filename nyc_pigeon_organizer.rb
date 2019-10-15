@@ -6,6 +6,7 @@ def nyc_pigeon_organizer(data)
       array.each do |name|
         if !pigeon_list.has_key?(name)
           pigeon_list[name] = {}
+        end
         if !pigeon_list[name][property]
           pigeon_list[name][property].push(attribute)
         end
