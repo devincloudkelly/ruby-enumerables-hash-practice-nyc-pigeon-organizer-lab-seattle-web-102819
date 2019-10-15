@@ -7,10 +7,10 @@ def nyc_pigeon_organizer(data)
         if !pigeon_list.has_key?(name)
           pigeon_list[name] = {}
         end
-        # if !pigeon_list[name][property]
+         if !pigeon_list[name][property]
           pigeon_list[name][property] = []
           pigeon_list[name][property].push(attribute.to_s)
-        #end
+        end
       end
     end
   end
