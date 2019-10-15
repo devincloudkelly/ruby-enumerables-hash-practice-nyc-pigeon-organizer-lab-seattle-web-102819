@@ -5,11 +5,8 @@ def nyc_pigeon_organizer(data)
     hash.each do |attribute, array|
       array.each do |name|
         if !pigeon_list.has_key?(name)
-          pigeon_list[name] = {
-            color: [],
-            gender: [],
-            lives: []
-          }
+          pigeon_list[name] = {}
+        if 
         end
       end
     end
